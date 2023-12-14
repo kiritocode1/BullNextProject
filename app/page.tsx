@@ -13,17 +13,17 @@ import LinkButtonComponent from "@/components/LinkButtonComponent";
 export default function Home() {
 	return (
 		<div className="bg-black">
-			<main className="flex flex-col relative bg-black">
-				<Image src={bg} alt="hello" className="object-cover" />
+			<main className="flex flex-col relative bg-black ">
+				<Image src={bg} alt="hello" className="object-cover h-[34rem]" />
 				<div className="absolute flex items-center justify-center w-full lg:pt-10 lg:px-20 pt-2 px-2 z-10">
 					<CardMain />
 				</div>
 
-				<div className="w-full mt-40 lg:mt-0 bg-black flex flex-col items-center py-12  gap-6">
+				<div className="w-full  lg:mt-0 bg-black flex flex-col items-center py-12  gap-6 ">
 					<div className="text-slate-300 text-sm">
 						TRADE LIKE PROFESSIONAL TRADERS
 					</div>
-					<div className="text-slate-100 text-5xl font-semibold">
+					<div className="text-slate-100 text-5xl font-semibold text-center lg:text-start">
 						{" "}
 						JOIN OUR WHATSAPP GROUP.
 					</div>
