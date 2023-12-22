@@ -4,10 +4,11 @@ import two from "../app/assets/carousel_images/2.jpg";
 import three from "../app/assets/carousel_images/3.jpg";
 import four from "../app/assets/carousel_images/4.jpg";
 import five from "../app/assets/carousel_images/5.jpg";
-import six from "../app/assets/carousel_images/6.jpg";
+import six from "../app/assets/carousel_images/6.png";
+import seven from "../app/assets/carousel_images/7.png"; 
+import eight from "../app/assets/carousel_images/8.jpg"
 import Image from "next/image";
-import { Button } from "@nextui-org/button";
-import { FaWhatsapp } from "react-icons/fa";
+
 import LinkButtonComponent from "./LinkButtonComponent";
 const ImageCarousel = () => {
 	return (
@@ -18,6 +19,8 @@ const ImageCarousel = () => {
 			<Image src={four} alt="four" className="lg:w-40" />
 			<Image src={five} alt="five" className="lg:w-40" />
 			<Image src={six} alt="six" className="lg:w-40" />
+			<Image src={seven} alt="seven" className="lg:w-40" />
+			<Image src={eight} alt="eight" className="lg:w-40" />
 		</div>
 	);
 };
