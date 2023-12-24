@@ -1,5 +1,5 @@
 import { FC } from "react";
-import one from "../app/assets/carousel_images/1.jpg";
+import one from "../app/assets/carousel_images/1.png";
 import two from "../app/assets/carousel_images/2.jpg";
 import three from "../app/assets/carousel_images/3.jpg";
 import four from "../app/assets/carousel_images/4.jpg";

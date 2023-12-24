@@ -22,7 +22,7 @@ interface CardMainProps {
 
 const CardMain: FC<CardMainProps> = ({}) => {
     return (
-			<Card fullWidth isHoverable>
+			<Card fullWidth isHoverable >
 				<CardHeader className="flex justify-center">
 					<Image
 						src={logo}

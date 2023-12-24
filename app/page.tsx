@@ -15,7 +15,7 @@ export default function Home() {
 		<div className="bg-black">
 			<main className="flex flex-col relative bg-black ">
 				<Image src={bg} alt="hello" className="object-cover h-[34rem]" />
-				<div className="absolute flex items-center justify-center w-full lg:pt-10 lg:px-20 pt-2 px-2 z-10">
+				<div className="absolute flex items-center justify-center w-full lg:pt-10 lg:px-60 pt-2 px-2 z-10 ">
 					<CardMain />
 				</div>
 
