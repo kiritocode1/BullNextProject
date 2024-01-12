@@ -9,7 +9,7 @@ interface LinkButtonComponentProps {
 
 const LinkButtonComponent: FC<LinkButtonComponentProps> = ({}) => {
 	return (
-	  <Link href="https://chat.whatsapp.com/HLpcj367iBs5NcYgk2y07y target='_blank'>
+	  <Link href="https://chat.whatsapp.com/HLpcj367iBs5NcYgk2y07y" target='_blank'>
 		<Button color="success" className="text-white" size="lg" variant="shadow">
 			<FaWhatsapp className="text-2xl" />
 			JOIN OUR WHATSAPP GROUP
